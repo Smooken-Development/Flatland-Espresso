@@ -1,0 +1,95 @@
+/* Plateau Espresso Style Guide */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5e6d3; /* Beige background from menu */
+    color: #4b2e2e; /* Brown text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(72,42,27,1); /* Dark brown header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f5e6d3;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1, h2 {
+    text-align: center; 
+}
+
+.menu-section {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates a 2-column layout */
+    gap: 20px; /* Space between products */
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #d4c2b0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    background-color: #6b4f4f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart:hover {
+    background-color: #a67b5b;
+}
+
+footer {
+    background-color: rgba(72,42,27,1); /* Dark brown footer */
+    padding: 10px 0;
+    text-align: center;
+    color: #f5e6d3;
+}
+
+footer p {
+    margin: 0;
+}
+.product img{
+	width: 50%;
+	height: auto;
+	border-radius: 8px;
+}
