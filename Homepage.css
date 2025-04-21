@@ -73,13 +73,6 @@ header {
     cursor: pointer;
 }
 /*Image Containers*/
-/*Left Button Container*/
-.leftButton {
-    left: 2%; /* Move left button outside the carousel */
-	color: black;
-	background: rgba(163, 157, 157, 0.76);
-	height: 5rem;
-}
 /*Middle Button Container*/
 .middleButton {
     position: absolute;
@@ -93,13 +86,6 @@ header {
     border-radius: 5px;
     cursor: pointer;
 	height: 3.3rem;
-}
-/*Right Button Container*/
-.rightButton {
-    right: 2%; /* Move right button outside the carousel */
-	color: black;
-	background: rgba(163, 157, 157, 0.76);
-	height: 5rem;
 }
 /*--Tabs--*/
 .tabsContainer {
@@ -118,6 +104,7 @@ header {
 .tabs button {
 	scale: relative;
 	width: 10rem;
+	background-color: #f5e6d3;
 }
 .tabsMiddleButton {
 	
@@ -293,7 +280,7 @@ footer ul li a {
         height: 3rem;
     }
 }
-@media (max-width: 576px) {
+@media (max-width : 369px ){
     .menu article {
         width: 100%;
     }

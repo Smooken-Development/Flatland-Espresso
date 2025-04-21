@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Flatland Espresso offers a selection of premium coffee roasts. Order online and enjoy your coffee today.">
+    <meta name="keywords" content="coffee, espresso, order online, coffee roasts, Flatland Espresso">
+    <meta name="author" content="Plateau Espresso">
     <title>Menu | Plateau Espresso</title>
     <link href="FlatlandOrder.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <header>
-        <nav>
+        <div class="logo"><!---Each Section element is best to put inside a div/container class--->
+            <button><img class="logo" src="FlatlandEspressoLogo.png" alt="Flatland Espresso Logo"></button>
+			<div class="brandName">
+				<h1>Flatland Espresso</h1>
+			</div>
+        </div>
+        <div class="topRight"> </div>
+	</header>
+		<nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="FlatLand Menu page.html">Menu</a></li>
                 <li><a href="order.html">Order Online</a></li>
-                <li><a href="locations.html">Locations & Hours</a></li>
-                <li><a href="events.html">Events & Community</a></li>
+                <li><a href="contact.html#StoreHours">Locations & Hours</a></li>
+                <li><a href="contact.html#Events">Events & Community</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-    </header>
     
     <main>
         <section class="menu-section">
@@ -27,58 +38,76 @@
             
             <div class="product-container">
                 <div class="product">
-                    <img src="Coffee Roasts.jpg" width="1787" height="2048" alt="Light Roast"/>
-                    <p>Light Roast - $7.99</p>
-                    <button class="add-to-cart" data-product="Light Roast" data-price="7.99">Add to Cart</button>
+                    <img src="Coffee Roasts.jpg" srcset="Coffee Roasts.webp" width="100%" height="auto" alt="Light Roast" loading="lazy"/>
+					<p>Light Roast - $7.99</p>
+                    <button class="add-to-cart" data-product="Light Roast" data-price="7.99" aria-label="Add Light Roast to Cart">Add to Cart</button>
                 </div>
                 
                 <div class="product">
-                    <img src="Coffee Roasts.jpg" width="1787" height="2048" alt="Light Roast Large"/>
-                    <p>Light Roast Large - $10.99</p>
-                    <button class="add-to-cart" data-product="Light Roast Large" data-price="10.99">Add to Cart</button>
+                    <img src="Coffee Roasts.jpg" srcset="Coffee Roasts.webp" width="100%" height="auto" alt="Light Roast Large" loading="lazy"/>
+					<p>Light Roast Large - $10.99</p>
+                    <button class="add-to-cart" data-product="Light Roast Large" data-price="10.99" aria-label="Add Light Roast Large to Cart">Add to Cart</button>
                 </div>  
                 
                 <div class="product">
-                    <img src="Coffee Roasts.jpg" width="1787" height="2048" alt="Medium Roast"/>
-                    <p>Medium Roast - $7.99</p>
-                    <button class="add-to-cart" data-product="Medium Roast" data-price="7.99">Add to Cart</button>
+                    <img src="Coffee Roasts.jpg" srcset="Coffee Roasts.webp" width="100%" height="auto" alt="Medium Roast" loading="lazy"/>
+					<p>Medium Roast - $7.99</p>
+                    <button class="add-to-cart" data-product="Medium Roast" data-price="7.99" aria-label="Add Medium Roast to Cart">Add to Cart</button>
                 </div>
                 
                 <div class="product">
-                    <img src="Coffee Roasts.jpg" width="1787" height="2048" alt="Medium Roast Large"/>
-                    <p>Medium Roast Large - $10.99</p>
-                    <button class="add-to-cart" data-product="Medium Roast Large" data-price="10.99">Add to Cart</button>
+                    <img src="Coffee Roasts.jpg" srcset="Coffee Roasts.webp" width="100%" height="auto" alt="Medium Roast Large" loading="lazy"/>
+					<p>Medium Roast Large - $10.99</p>
+                    <button class="add-to-cart" data-product="Medium Roast Large" data-price="10.99" aria-label="Add Medium Roast Large to Cart">Add to Cart</button>
                 </div>
                 
                 <div class="product">
-                    <img src="Coffee Roasts.jpg" width="1787" height="2048" alt="Dark Roast"/>
-                    <p>Dark Roast - $7.99</p>
-                    <button class="add-to-cart" data-product="Dark Roast" data-price="7.99">Add to Cart</button>
+                    <img src="Coffee Roasts.jpg" srcset="Coffee Roasts.webp" width="100%" height="auto" alt="Dark Roast" loading="lazy"/>
+					<p>Dark Roast - $7.99</p>
+                    <button class="add-to-cart" data-product="Dark Roast" data-price="7.99" aria-label="Add Dark Roast to Cart">Add to Cart</button>
                 </div>
 
                 <div class="product">
-                    <img src="Coffee Roasts.jpg" width="1787" height="2048" alt="Dark Roast Large"/>
-                    <p>Dark Roast Large - $10.99</p>
-                    <button class="add-to-cart" data-product="Dark Roast Large" data-price="10.99">Add to Cart</button>
+                    <img src="Coffee Roasts.jpg" srcset="Coffee Roasts.webp" width="100%" height="auto" alt="Dark Roast Large" loading="lazy"/>
+					<p>Dark Roast Large - $10.99</p>
+                    <button class="add-to-cart" data-product="Dark Roast Large" data-price="10.99" aria-label="Add Dark Roast Large to Cart">Add to Cart</button>
                 </div>
 
                 <div class="product">
-                    <img src="Coffee Roasts.jpg" width="1787" height="2048" alt="Extra Dark Roast"/>
-                    <p>Extra Dark Roast - $7.99</p>
-                    <button class="add-to-cart" data-product="Extra Dark Roast" data-price="7.99">Add to Cart</button>
+                    <img src="Coffee Roasts.jpg" srcset="Coffee Roasts.webp" width="100%" height="auto" alt="Extra Dark Roast" loading="lazy"/>
+					<p>Extra Dark Roast - $7.99</p>
+                    <button class="add-to-cart" data-product="Extra Dark Roast" data-price="7.99" aria-label="Add Extra Dark Roast to Cart">Add to Cart</button>
                 </div>
 
                 <div class="product">
-                    <img src="Coffee Roasts.jpg" width="1787" height="2048" alt="Extra Dark Roast Large"/>
-                    <p>Extra Dark Roast Large - $10.99</p>
-                    <button class="add-to-cart" data-product="Extra Dark Roast Large" data-price="10.99">Add to Cart</button>
+                    <img src="Coffee Roasts.jpg" srcset="Coffee Roasts.webp" width="100%" height="auto" alt="Extra Dark Roast Large" loading="lazy"/>
+					<p>Extra Dark Roast Large - $10.99</p>
+                    <button class="add-to-cart" data-product="Extra Dark Roast Large" data-price="10.99" aria-label="Add Extra Dark Roast Large to Cart">Add to Cart</button>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Plateau Espresso. All rights reserved.</p>
-    </footer>
+    <!---Footer Section--->
+        <footer style="padding: 20px; text-align: center;">
+            <p>&copy; 2025 | Flatland Espresso | All Rights Reserved</p>
+            <p>Contact Us:</p>
+            <ul style="list-style: none; padding: 0;">
+              <li style="display: inline; margin-right: 10px;">
+                <a href="https://www.facebook.com/PlateauEspresso/">Facebook</a>
+              </li>
+              <li style="display: inline; margin-right: 10px;">
+                <a href="https://www.instagram.com/plateauespressoalamogordo/">Instagram</a>
+              </li><br>
+
+              <li style="display: inline; margin-right: 10px;">
+                <a href="">+1-(575)-434-4466</a>
+              </li><br>
+			<li style="display: inline; margin-right: 10px;">
+                <a href="mailto:info@plateauespresso.com">info@plateauespresso.com</a>
+              </li>
+              
+            </ul>
+          </footer>
 </body>
 </html>

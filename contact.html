@@ -8,17 +8,26 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="logo"><!---Each Section element is best to put inside a div/container class--->
+            <button><img class="logo" src="FlatlandEspressoLogo.png" alt="Flatland Espresso Logo"></button>
+			<div class="brandName">
+				<h1>Flatland Espresso</h1>
+			</div>
+        </div>
+        <div class="topRight"> </div>
+	</header>
+		<nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="FlatLand Menu page.html">Menu</a></li>
                 <li><a href="order.html">Order Online</a></li>
-                <li><a href="locations.html">Locations & Hours</a></li>
-                <li><a href="events.html">Events & Community</a></li>
+                <li><a href="contact.html#StoreHours">Locations & Hours</a></li>
+                <li><a href="contact.html#Events">Events & Community</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-    </header>
+        
+    
     
     <main>
         <section class="contact-section">
@@ -30,8 +39,8 @@
                     <p>1-(575)-434-4466</p>
                 </div>
                 
-                <div class="contact-card">
-                    <h2 class="contact-card-heading">Store Hours</h2>
+                <div class="contact-card" id="StoreHours">
+                    <h2 class="contact-card-heading StoreHours">Store Hours</h2>
                     <p>6:00 AM - 7:00 PM</p>
                     <p>Everyday</p>
                 </div>
@@ -59,17 +68,35 @@
             </div>
         </section>
 
-        <section class="upcoming-events-section">
-            <h2 class="section-heading">Upcoming Events</h2>
+        <section class="upcoming-events-section" id="Events">
+            <h2 class="section-heading Events">Upcoming Events</h2>
             <div class="upcoming-events-card">
                 <p>TBD</p>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Plateau Espresso. All rights reserved.</p>
-    </footer>
+    <!---Footer Section--->
+        <footer style="padding: 20px; text-align: center;">
+            <p>&copy; 2025 | Flatland Espresso | All Rights Reserved</p>
+            <p>Contact Us:</p>
+            <ul style="list-style: none; padding: 0;">
+              <li style="display: inline; margin-right: 10px;">
+                <a href="https://www.facebook.com/PlateauEspresso/">Facebook</a>
+              </li>
+              <li style="display: inline; margin-right: 10px;">
+                <a href="https://www.instagram.com/plateauespressoalamogordo/">Instagram</a>
+              </li><br>
+
+              <li style="display: inline; margin-right: 10px;">
+                <a href="">+1-(575)-434-4466</a>
+              </li><br>
+			<li style="display: inline; margin-right: 10px;">
+                <a href="mailto:info@plateauespresso.com">info@plateauespresso.com</a>
+              </li>
+              
+            </ul>
+          </footer>
 
 </body>
 </html>
